@@ -1,132 +1,59 @@
 ---
-# 🧩 Versioning – systém dopĺňa automaticky
+# Versioning
 fm_version: "1.0.1"
-
-# Dátum buildu – generuje skript
 fm_build: "2026-10-27T16:40:37.404131+00:00"
-
-# Poznámka k verzii – voliteľné
 fm_version_comment: ""
 
-
-# 🆔 IDENTITY --------------------------------------------------------
-
-# ID generuje CLI / skript
-
-# Unikátne UUID – generuje skript
+# Identity
 guid: "0b44342b-cdaa-425d-886b-1c388e8f054c"
 
-
-# 🧭 CONTEXT ---------------------------------------------------------
-
-# DAO / doména (knife, sdlc, q12, 7ds...) dopĺňa skript
+# Context
 dao: "sthdf"
+title: "Univerzálny indikátor vlhkosti pôdy"
+description: "Návrh a realizácia jednoduchého zariadenia na automatické monitorovanie vlhkosti pôdy izbových rastlín."
 
-# Názov zápisu – dopĺňa používateľ
-title: "project summary"
-
-# Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
-
-
-# 👥 AUTHORSHIP ------------------------------------------------------
-
-# Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
-
-# Zoznam autorov – generuje skript
+# Authorship
+author: "Tomáš Jucha"
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
+# Classification
+category: "student-project"
+type: "project-summary"
+priority: "medium"
+tags:
+  - sthdf
+  - soil-moisture
+  - electronics
+  - 3d-printing
 
-# 🗂 CLASSIFICATION ---------------------------------------------------
-
-# Nadradená kategória – môže doplniť používateľ
-category: ""
-
-# Typ dokumentu (guide, case, tutorial...) – používateľ (voliteľné)
-type: ""
-
-# Priorita (low/medium/high) – voliteľné
-priority: ""
-
-# Tagy – odporúča sa 2–6 tagov.
-# Typy tagov:
-#   - rámce: knife, 7ds, sdlc, q12
-#   - účel: tutorial, guide, pattern, case-study
-#   - téma: git, backup, ai, communication
-#   - úroveň: beginner, intermediate, advanced
-tags: []
-
-
-# 🌍 LOCALIZATION -----------------------------------------------------
-
-# Jazyk dokumentu – doplní skript podľa štruktúry
+# Localization
 locale: "sk"
 
-
-# 🕒 LIFECYCLE --------------------------------------------------------
-
-# Dátum vytvorenia – generuje skript
+# Lifecycle
 created: "2026-10-27 17:40"
-
-# Dátum poslednej úpravy – dopĺňa človek
 modified: "2026-10-27 17:40"
-
-# Stav dokumentu – default "backlog"
-status: "backlog"
-
-# Viditeľnosť – default "public"
+status: "in-progress"
 privacy: "public"
 
-
-# ⚖ INTELLECTUAL PROPERTY -------------------------------------------
-
-# Držiteľ práv k obsahu – dopĺňa skript
+# Intellectual property
 rights_holder_content: "Roman Kazicka"
-
-# Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
-
-# Licencia
 license: "CC-BY-NC-SA-4.0"
-
-# Disclaimer
 disclaimer: "Use at your own risk. Methods provided as-is; participation is voluntary and context-aware."
-
-# Copyright
 copyright: "© 2025 Roman Kazicka"
 
-
-# 🔗 ORIGIN / PROVENANCE ---------------------------------------------
-
-# Repozitár pôvodu
+# Origin / provenance
 origin_repo: ""
-
-# URL pôvodného repozitára
 origin_repo_url: ""
-
-# Commit pôvodu
 origin_commit: ""
-
-# Branch pôvodu
 origin_branch: ""
-
-# Systém pôvodu (CAA/KNIFE/STHDF…)
 origin_system: "CAA"
-
-# Pôvodný autor
 origin_author: "Roman Kazicka"
-
-# Importovaný zdroj
 origin_imported_from: ""
-
-# Dátum importu
 origin_import_date: ""
 
-
-# 🧱 RESERVED ---------------------------------------------------------
-
+# Reserved
 fm_reserved1: ""
 fm_reserved2: ""
 ---
@@ -136,68 +63,159 @@ fm_reserved2: ""
 # 📝 Project Summary
 
 ## 🔖 Identifikácia
-## 1️⃣ Názov projektu
-*(Jasný, výstižný, inšpiratívny – ako by sa mal objaviť na plagáte.)*
-- **Názov projektu:** `PRJ_XXX_<Názov>_<ST_XXX>_<ST_XXX>`
-- **Stručný popis:** 2–3 vety
 
-## 2️⃣ Členovia tímu
+### 1️⃣ Názov projektu
+
+**Názov projektu:** Univerzálny indikátor vlhkosti pôdy (ST-059)
+
+**Stručný popis:**
+
+Projekt sa zameriava na návrh a výrobu jednoduchého elektronického zariadenia, ktoré automaticky monitoruje vlhkosť pôdy v kvetináči. Pri poklese vlhkosti pod nastavenú hranicu upozorní používateľa pomocou blikajúcej LED diódy. Zariadenie bude možné použiť v bežných existujúcich kvetináčoch.
+
+### 2️⃣ Členovia tímu
 
 | ST ID | Meno | Rola v tíme | Kompetencie |
-|-------|------|-------------|-------------|
-| ST001 |      | Project Lead | koordinácia |
-| ST002 |      | Developer | implementácia |
-| ST003 |      | Designer | UI/UX |
+|---|---|---|---|
+| ST-059 | Tomáš Jucha | Samostatný riešiteľ | Návrh, programovanie, výroba, testovanie a dokumentácia |
 
-## 3️⃣ Motivácia tímu
-- Prečo ste si vybrali tento projekt?
-- Aký osobný alebo profesný zmysel má pre vás riešenie tejto témy?
-- Prečo je projekt dôležitý
-- Aký problém rieši
+Projekt bude realizovaný individuálne.
 
-## 4️⃣ Cieľ a pridaná hodnota projektu
-- Aký je finálny cieľ
-- Ako spoznáme, že projekt je úspešný
+### 3️⃣ Motivácia tímu
 
-## 5️⃣ Popis riešenia
-- Stručne opíšte architektúru, nástroje a technológie, ktoré použijete.
-- Zamerajte sa na **"čo"** riešite, nie ešte "ako".
+Mnoho ľudí pestuje doma izbové rastliny, ale nie vždy si spomenie na ich pravidelné zalievanie. Nedostatočná alebo nadmerná zálievka môže negatívne ovplyvniť ich stav.
 
-## 6️⃣ Projektový plán
-- Odhadovaný čas na prácu: _x hodín / týždeň_
-- Predpokladaný stav v čase prezentácie: _MVP / prototyp / dokumentácia / funkčný produkt_
-- Hlavné míľniky:
-  - [ ] Príprava
-  - [ ] Implementácia
-  - [ ] Testovanie
-  - [ ] Prezentácia
+Motiváciou projektu je vytvoriť jednoduché zariadenie, ktoré používateľa samo upozorní, keď vlhkosť pôdy klesne pod nastavenú hranicu.
 
-### 📅 Míľniky a výstupy
-- **Do januára dodáme:**
-  - [ ] prototyp
-  - [ ] prezentáciu
-  - [ ] dokumentáciu
+Na rozdiel od manuálnych vlhkomerov nebude potrebné pravidelne kontrolovať namerané hodnoty. Zariadenie bude automaticky signalizovať potrebu kontroly zalievania.
 
-## 7️⃣ Zákazník a hodnoty
-- Kto by mohol byť používateľom projektu?
-- Čo mu to prinesie?
+Projekt zároveň umožní prakticky si vyskúšať prácu s elektronikou, programovaním mikrokontroléra, 3D modelovaním a digitálnou výrobou.
 
-## 8️⃣ Očakávané výstupy
-- Dokumentácia: (napr. README, KNIFE článok, demo stránka...)
-- Artefakty: (napr. prototyp, appka, vizualizácia...)
+### 4️⃣ Cieľ a pridaná hodnota projektu
+
+**Hlavný cieľ:** Navrhnúť a vyrobiť funkčný prototyp univerzálneho indikátora vlhkosti pôdy pre izbové rastliny.
+
+Zariadenie by malo:
+
+- Automaticky merať vlhkosť pôdy.
+- Pri poklese pod nastavenú hranicu upozorniť používateľa blikajúcou LED diódou.
+- Umožniť nastavenie hranice vlhkosti.
+- Fungovať bez mobilnej aplikácie a internetového pripojenia.
+- Byť použiteľné v existujúcich kvetináčoch.
+- Mať vlastný 3D tlačený kryt a vymeniteľný senzor.
+
+**Kritériá úspechu:** Prototyp dokáže rozlíšiť suchšiu a vlhkejšiu pôdu, správne aktivovať upozornenie a fungovať ako samostatné zariadenie.
+
+### 5️⃣ Popis riešenia
+
+Zariadenie bude pozostávať z kapacitného senzora vlhkosti pôdy, mikrokontroléra, LED diódy, napájania a ochranného krytu.
+
+Senzor bude umiestnený v pôde a elektronika v kryte nad jej povrchom. Mikrokontrolér bude v pravidelných intervaloch vyhodnocovať namerané hodnoty. Ak vlhkosť klesne pod nastavenú hranicu, aktivuje svetelnú signalizáciu.
+
+Predpokladané technológie:
+
+- Arduino alebo ESP32 – riadenie zariadenia.
+- Kapacitný senzor – meranie vlhkosti pôdy.
+- LED dióda – upozornenie používateľa.
+- CAD nástroj – parametrický návrh krytu.
+- 3D tlač – výroba krytu.
+
+Konkrétne komponenty a spôsob napájania budú vybrané počas návrhu s ohľadom na cenu, spotrebu energie a jednoduchosť realizácie.
+
+### 6️⃣ Projektový plán
+
+**Odhadovaný čas práce:** približne 2–4 hodiny týždenne podľa aktuálnej fázy projektu.
+
+**Predpokladaný výsledok:** Funkčný prototyp s technickou dokumentáciou a prezentáciou.
+
+**Hlavné míľniky:**
+
+- [ ] Príprava – analýza potrieb zákazníka a výber komponentov.
+- [ ] Návrh – zapojenie elektroniky a CAD model krytu.
+- [ ] Implementácia – programovanie a výroba prototypu.
+- [ ] Testovanie – overenie merania a signalizácie.
+- [ ] Prezentácia – dokumentácia výsledkov a obhajoba.
+
+#### 📅 Míľniky a výstupy
+
+**Do januára plánujem dodať:**
+
+- [ ] Funkčný prototyp indikátora vlhkosti pôdy.
+- [ ] CAD model a podklady na 3D tlač.
+- [ ] Zdrojový kód mikrokontroléra.
+- [ ] Dokumentáciu zapojenia a montáže.
+- [ ] Výsledky základného testovania.
+- [ ] Záverečnú prezentáciu.
+
+### 7️⃣ Zákazník a hodnoty
+
+**Cieľový zákazník:** Bežný pestovateľ izbových rastlín, najmä začiatočník alebo človek, ktorý často zabúda na zalievanie.
+
+**Problém zákazníka:** Používateľ nemusí vedieť, kedy rastlina potrebuje poliať, alebo zabúda pravidelne kontrolovať vlhkosť pôdy.
+
+**Hodnota riešenia:**
+
+- Automatické upozornenie bez potreby manuálnej kontroly.
+- Použitie v existujúcom kvetináči.
+- Jednoduché ovládanie bez mobilnej aplikácie.
+- Možnosť prispôsobiť hranicu signalizácie.
+- Možnosť výmeny senzora bez výmeny celého zariadenia.
+
+Na trhu existujú manuálne aj inteligentné vlhkomery. Projekt preto nie je založený na úplne novej technológii, ale na kombinácii jednoduchej automatickej signalizácie, univerzálneho použitia, prispôsobiteľnosti a opraviteľnosti.
+
+### 8️⃣ Očakávané výstupy
+
+**Dokumentácia:**
+
+- Projektová dokumentácia v Git repozitári.
+- Opis elektronického zapojenia.
+- Zdrojový kód.
+- CAD model a súbory na výrobu krytu.
+- Zoznam komponentov a postup montáže.
+- Výsledky testovania.
+
+**Fyzické artefakty:**
+
+- Funkčný prototyp indikátora vlhkosti pôdy.
+- 3D tlačený kryt.
+- Elektronický obvod so senzorom a LED signalizáciou.
+
+Dokumentácia by mala umožniť opakovateľnú výrobu ďalšieho kusu zariadenia.
 
 ## 📚 Kontext
-- KNIFE príspevky, literatúra, inšpirácie
+
+Projekt vychádza z existujúcich riešení na meranie vlhkosti pôdy, napríklad analógových vlhkomerov, digitálnych senzorov a inteligentných monitorovacích systémov pre rastliny.
+
+Počas návrhu budú porovnané dostupné riešenia z hľadiska ceny, funkcií, jednoduchosti používania a možnosti opravy.
+
+Projekt bude využívať poznatky z oblasti mikrokontrolérov, senzorov, parametrického 3D modelovania a digitálnej výroby.
 
 ## 🧭 Riziká a závislosti
-- Riziká projektu
-- Na čom závisí
 
-## 9️⃣ Reflexia a ďalšie kroky
-Čo očakávate, že sa naučíte?
-Ako by sa projekt mohol rozvíjať ďalej?
+**Hlavné riziká:**
+
+- Nepresné meranie vlhkosti pri rôznych typoch pôdy.
+- Nevhodne nastavená hranica upozornenia.
+- Vysoká spotreba energie pri batériovom napájaní.
+- Poškodenie senzora pri dlhodobom používaní.
+- Komplikácie pri návrhu a výrobe krytu.
+
+**Závislosti:**
+
+- Dostupnosť elektronických komponentov.
+- Prístup k 3D tlačiarni.
+- Funkčnosť a kalibrácia senzora.
+- Dostatočný čas na testovanie.
+
+### 9️⃣ Reflexia a ďalšie kroky
+
+Od projektu očakávam získanie praktických skúseností s návrhom jednoduchého elektronického zariadenia, programovaním mikrokontroléra, 3D modelovaním a dokumentovaním výrobného procesu.
+
+Najbližšími krokmi budú výber konkrétnych komponentov, návrh elektronického zapojenia a vytvorenie prvého funkčného prototypu.
+
+V budúcnosti by bolo možné zariadenie rozšíriť o webové rozhranie, históriu meraní alebo podporu rôznych profilov rastlín. Tieto funkcie však nie sú súčasťou základného rozsahu projektu.
 
 ---
 
 ## Navigácia
-- [↩️ Späť](../index.md)
+
+[↩️ Späť](../index.md)
