@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "03.D3 Analysis"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Východiskové znalosti autora, použitie AI a zdroje analýzy."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [7ds, analyza, znalosti, ai]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,15 @@ fm_reserved2: ""
 
 # D3 – Analysis
 
-Zdroje, analýzy a vstupy.
+## Východiskové znalosti autora
+
+Pred začiatkom projektu som nemal praktické skúsenosti s programovaním mikrokontrolérov, návrhom elektronických zariadení ani 3D modelovaním a tlačou. Na strednej škole som získal základné skúsenosti so spájkovaním súčiastok, najmä diód a rezistorov. Tento opis je východiskom pre neskoršie porovnanie získaných znalostí, nie záverečnou reflexiou.
+
+## Východiská a hranice analýzy
+
+Na začiatku som mal iba základnú predstavu o zariadení. Konkrétne technické možnosti a komponenty som začal skúmať konzultáciami s AI. Vlastné nápady a rozhodnutia, návrhy AI a spoločne diskutované riešenia sú rozlíšené v [prehľade rozhodnutí](../01.D1-Management/04.Decisions/index.md); žiadny z nich sa tým nestáva fyzicky overeným výsledkom. AI využívam aj pri práci s Gitom, dokumentáciou a príprave programového vybavenia; firmware zatiaľ nebol implementovaný.
+
+Analýza produktov nasledovala po výbere témy. Jej zdroje a obmedzenia sú v [SDLC analýze](../../sdlc/02-Analysis/index.md); rozpočet a technické riziká sú v [štúdii uskutočniteľnosti](../../sdlc/02-Analysis/feasibility-study.md).
 
 ---
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)

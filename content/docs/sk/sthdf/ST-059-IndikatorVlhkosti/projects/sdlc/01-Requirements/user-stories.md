@@ -142,9 +142,9 @@ fm_reserved2: ""
 - Ako používateľ chcem vložiť zariadenie do existujúceho kvetináča, aby som nemusel kupovať nový špeciálny kvetináč.
 - Ako používateľ chcem používať základnú signalizáciu bez aplikácie a internetu, aby bola obsluha jednoduchá.
 - Ako autor chcem pri kalibrácii nastaviť hranicu v zdrojovom kóde, aby signalizácia zodpovedala zvolenej pôde.
-- Ako používateľ chcem dobíjateľné napájanie a možnosť výmeny senzora, aby som mohol zariadenie opakovane používať.
+- Ako používateľ chcem dobíjateľné napájanie, aby som nemusel pravidelne vymieňať batérie.
 
-Nastavenie hranice používateľom cez Bluetooth je možné budúce rozšírenie, nie podmienka MVP. Kritériá overenia sú v [testovacích prípadoch](../05-Testing/test-cases.md).
+Jednoduchá výmena senzora je voliteľný návrh AI, nie pôvodná požiadavka autora. Nastavenie hranice a upozornenia cez mobil sú možné budúce rozšírenia, nie podmienky MVP. Kritériá overenia sú v [testovacích prípadoch](../05-Testing/test-cases.md).
 
 ---
 **Navigácia:** [⬆️ Späť](./index.md) · [🏠 Prehľad](../index.md)

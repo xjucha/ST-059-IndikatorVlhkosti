@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "04.D4 Design"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Predbežný návrh indikátora a voliteľné konštrukčné rozšírenia."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [7ds, navrh, elektronika]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,11 @@ fm_reserved2: ""
 
 # D4 – Design
 
-Návrh riešenia a jeho štruktúra.
+## Predbežný návrh
+
+Pôvodná predstava autora je senzor v pôde s blikajúcou LED. Konkrétna kombinácia senzora, ESP32, batérie a krytu sa rozpracúva na základe konzultácií s AI. Technické zapojenie, funkčnosť a rozmery zatiaľ nie sú prakticky overené; podrobnosti sú v [SDLC návrhu](../../sdlc/03-Design/index.md) a [blokovej architektúre](../../sdlc/03-Design/architecture-diagram.md).
+
+Jednoduchú výmenu senzora navrhla AI ako možné zlepšenie opraviteľnosti. Ide o voliteľnú konštrukčnú možnosť; o jej realizácii sa rozhodne pri návrhu krytu a fyzickej montáži. Mobilná aplikácia je takisto voliteľná a zatiaľ neoverená. Dôvody a alternatívy sú v [prehľade rozhodnutí](../01.D1-Management/04.Decisions/index.md).
 
 ---
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)

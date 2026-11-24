@@ -143,7 +143,7 @@ fm_reserved2: ""
 | Zrozumiteľnosť | Červená blikajúca LED predstavuje upozornenie; význam sa uvedie v návode a skontroluje pri ukážke. |
 | Prenosnosť | Zariadenie sa má dať premiestniť medzi bežnými kvetináčmi; vhodnosť rozmerov a potrebu opakovanej kalibrácie treba overiť. |
 | Napájanie | Prevádzka z nabíjateľnej batérie; výdrž a spotreba sú zatiaľ neznáme a budú merané. |
-| Opraviteľnosť | Navrhnúť jednoduchú výmenu senzora a prístup k elektronike; overiť pri montáži. |
+| Opraviteľnosť | Jednoduchá výmena senzora je voliteľný návrh; o realizácii a prípadnom overení sa rozhodne pri návrhu krytu a montáži. |
 | Bezpečnosť | Pred pripojením overiť polaritu, kompatibilitu batérie a nabíjania, ako aj napätia a rozsah ADC; elektroniku chrániť pred kontaktom s pôdou a vodou. |
 | Opakovateľnosť | Zdokumentovať kalibráciu, zapojenie, zdrojový kód a výrobu krytu tak, aby bolo možné postup zopakovať. |
 

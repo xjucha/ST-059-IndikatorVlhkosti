@@ -145,10 +145,10 @@ Cieľom je indikátor pre majiteľa izbovej rastliny, ktorý po vložení do exi
 - F1: Zariadenie pravidelne odčíta relatívny údaj zo senzora a porovná ho s kalibrovanou hranicou.
 - F2: Pri hodnote zodpovedajúcej suchej pôde bliká červená LED; pri vlhkejšej pôde sa upozornenie neaktivuje.
 - F3: Hranica sa predbežne nastaví v zdrojovom kóde pri kalibrácii a následnom nahratí programu.
-- F4: Prototyp bude napájaný nabíjateľnou batériou a umiestnený vo vlastnom 3D tlačenom kryte; senzor má byť jednoducho vymeniteľný.
+- F4: Prototyp bude napájaný nabíjateľnou batériou a umiestnený vo vlastnom 3D tlačenom kryte.
 - F5: Základná funkcia nebude vyžadovať internet ani mobilnú aplikáciu.
 
-Interval merania približne 15 minút a blikania približne 10 sekúnd sú pracovné návrhy, ktoré treba overiť. Nastavenie cez Bluetooth je voliteľné rozšírenie.
+Interval merania približne 15 minút a blikania približne 10 sekúnd sú pracovné návrhy, ktoré treba overiť. Jednoduchá výmena senzora je voliteľný návrh AI; rozhodne sa pri návrhu krytu a montáži. Nastavenie a upozornenia cez mobil sú voliteľné rozšírenia.
 
 Podrobnosti: [používateľské príbehy](./user-stories.md), [nefunkčné požiadavky](./non-functional.md), [plán testov](../05-Testing/test-cases.md).
 

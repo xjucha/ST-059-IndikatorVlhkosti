@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "02.D2 Motivation"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Osobná motivácia, problém pestovania rastlín a cieľ projektu."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [7ds, motivacia, vlhkost-pody]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -135,7 +135,17 @@ fm_reserved2: ""
 
 # D2 – Motivation
 
-Stakeholderi, dôvody a dopady.
+## Osobný problém a cieľ
+
+Často zabúdam polievať izbové rastliny, najmä keď rodičia na dlhší čas odídu a starostlivosť o rastliny zostane na mne. Samotné polievanie mi nerobí problém; ťažké je spomenúť si v správnom čase. Chcel som preto zariadenie, ktoré by som vedel prakticky používať aj po skončení semestrálneho projektu.
+
+Pôvodne som si predstavoval malé zariadenie zasunuté do pôdy, ktoré pri suchu bliká LED diódou. Zariadenie v mojej izbe by mi zároveň pripomenulo skontrolovať ostatné rastliny v domácnosti. Jeden senzor však meria iba pôdu, v ktorej je vložený; o vlhkosti ostatných kvetináčov nič nevypovedá.
+
+Rozhodol som sa pre indikátor namiesto automatickej závlahy, pretože nepotrebujem automatizovať samotné polievanie a chcem cenovo dostupný, časovo zvládnuteľný projekt. Zariadenie chcem podľa potreby prenášať medzi existujúcimi kvetináčmi. Univerzálnosť neznamená rovnakú hranicu pre všetky rastliny a pôdy; pri presune môže byť potrebná opätovná kalibrácia.
+
+O existencii vlhkomerov som vedel, ale pred výberom témy som ich podrobne neskúmal. Mojím cieľom bolo praktické zariadenie, nie vynález nového produktu. Následné [porovnanie existujúcich riešení](../../sdlc/02-Analysis/index.md) vychádza z dostupných zdrojov, nie z vlastných skúšok.
+
+Ak je zariadenie v inej miestnosti, blikajúcu LED si nemusím všimnúť. Preto zvažujem aplikáciu s upozornením; je to voliteľné rozšírenie a dosah aj upozornenia na pozadí zostávajú neoverené.
 
 ---
 **Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)

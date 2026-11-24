@@ -140,7 +140,7 @@ fm_reserved2: ""
 
 ## Technická
 
-ESP32, kapacitný senzor, LED a 3D tlačený kryt predstavujú realizovateľný smer návrhu; funkčnosť konkrétnych kusov ešte nie je overená. Treba preveriť napájacie a výstupné napätie senzora, rozsah ADC, zapojenie LED, stabilitu údajov a možnosti úsporného režimu. Pred pripojením batérie overiť polaritu konektora, nabíjací prúd a kompatibilitu batérie s doskou. Výmena senzora a ochrana elektroniky pred vodou sa musia potvrdiť návrhom a skúškou.
+ESP32, kapacitný senzor, LED a 3D tlačený kryt predstavujú smer návrhu; funkčnosť konkrétnych kusov ešte nie je overená. Treba preveriť napájacie a výstupné napätie senzora, rozsah ADC, zapojenie LED, stabilitu údajov a možnosti úsporného režimu. Pred pripojením batérie overiť polaritu konektora, nabíjací prúd a kompatibilitu batérie s doskou. Ochranu elektroniky pred vodou treba riešiť návrhom a skúškou; jednoduchá výmena senzora je voliteľná a zatiaľ nerozhodnutá.
 
 ## Ekonomická
 

@@ -140,7 +140,7 @@ fm_reserved2: ""
 
 Senzor poskytne analógový údaj doske ESP32. Program údaj pravidelne vyhodnotí oproti hranici nastavenej v kóde a pri suchom stave aktivuje červenú LED. Elektroniku a batériu má chrániť vlastný 3D tlačený kryt; meracia časť senzora bude v pôde.
 
-Navrhované intervaly 15 minút pre meranie a 10 sekúnd pre blikanie sú predbežné. Riadenie spánku musí umožniť oba časové intervaly; spôsob prebúdzania a spotrebu treba navrhnúť a otestovať. Senzor sa má dať vymeniť, konkrétny konektor a mechanika sú otvorené.
+Navrhované intervaly 15 minút pre meranie a 10 sekúnd pre blikanie sú predbežné. Riadenie spánku musí umožniť oba časové intervaly; spôsob prebúdzania a spotrebu treba navrhnúť a otestovať. Jednoduchá výmena senzora je voliteľné vylepšenie; konektor a mechanika sú otvorené.
 
 ## Predbežné správanie
 

@@ -150,11 +150,11 @@ Pestovateľ potrebuje včasné, zrozumiteľné upozornenie; hodnota senzora záv
 
 Ceny sú orientačné údaje na odkazovaných stránkach overené 24. 11. 2026, bez porovnania dopravy či miestnej dostupnosti. Neznáme údaje nie sú dôkazom neprítomnosti funkcie. Plant Pulse predstavuje existujúce riešenie s podobnou miestnou signalizáciou; jedinečnosť nášho návrhu nie je preukázaná.
 
-Porovnanie vychádza z dokumentácie výrobcov, nie z vlastných testov. Náš prototyp plánuje miestne blikanie bez aplikácie, nabíjateľnú batériu, výmenu senzora a prah nastavovaný v kóde; tieto vlastnosti zatiaľ nie sú overené. Rozpočet a prínos oproti konkurencii treba ešte vyhodnotiť.
+Porovnanie vychádza z dokumentácie výrobcov, nie z vlastných testov. Náš prototyp plánuje miestne blikanie bez aplikácie, nabíjateľnú batériu a prah nastavovaný v kóde; tieto vlastnosti zatiaľ nie sú overené. Jednoduchá výmena senzora je voliteľný návrh. Rozpočet a prínos oproti konkurencii treba ešte vyhodnotiť.
 
 ## Riziká a otvorené otázky
 
-Rozdiely medzi pôdami a senzormi, stabilita merania, spotreba, ochrana elektroniky, vhodnosť batérie a realizovateľnosť výmeny senzora sa overia na skutočných dieloch. Podrobnosti: [štúdia uskutočniteľnosti](./feasibility-study.md).
+Rozdiely medzi pôdami a senzormi, stabilitu merania, spotrebu, ochranu elektroniky a vhodnosť batérie treba overiť na skutočných dieloch. Realizovateľnosť jednoduchej výmeny senzora sa posúdi, ak sa pre ňu rozhodne. Podrobnosti: [štúdia uskutočniteľnosti](./feasibility-study.md).
 
 ---
 **Navigácia:** [⬆️ Späť](../index.md)

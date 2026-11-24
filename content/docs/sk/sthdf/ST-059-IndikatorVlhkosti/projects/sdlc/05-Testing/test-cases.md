@@ -146,7 +146,7 @@ fm_reserved2: ""
 | T04 – Vlhkejšia pôda | Pri ustálenom údaji na vlhkej strane hranice sledovať LED. | Upozornenie sa neaktivuje, prípadne po ďalšom vyhodnotení skončí. |
 | T05 – Načasovanie | Zmerať odstupy odčítaní a bliknutí v oboch stavoch. | Intervaly zodpovedajú aktuálne nastaveným hodnotám; predbežne 15 min a 10 s. |
 | T06 – Batéria a nabíjanie | Po overení kompatibility a polarity odpojiť USB, vyskúšať prevádzku a následne nabíjanie podľa dokumentácie. | Zariadenie pracuje z batérie a nabíjanie sa správa podľa dokumentácie; zaznamenať podmienky. |
-| T07 – Kryt a senzor | Skontrolovať montáž, viditeľnosť LED, prístup k USB a výmenu senzora. | Komponenty držia, LED a USB sú prístupné a senzor sa dá vymeniť. |
+| T07 – Kryt a senzor | Skontrolovať montáž, viditeľnosť LED a prístup k USB; výmenu senzora overiť iba pri rozhodnutí realizovať ju. | Komponenty držia, LED a USB sú prístupné; prípadné overenie výmeny sa zaznamená osobitne. |
 | T08 – Spotreba | Zmerať prúd pri meraní, signalizácii a medzi aktivitami; prípadne sledovať prevádzku na batériu. | Zaznamenané hodnoty umožnia odhad výdrže; výsledok zatiaľ nie je stanovený. |
 | T09 – Presun | Presunúť senzor do iného kvetináča, zaznamenať podmienky a prípadne znovu kalibrovať. | Zariadenie je mechanicky použiteľné a záznam ukáže, či je potrebná úprava hranice. |
 | T10 – Bez internetu a aplikácie | Vypnúť sieťové pripojenie a nepoužiť mobilnú aplikáciu; vykonať skúšku suchej a vlhkej pôdy. | Základné meranie a LED fungujú bez internetu a aplikácie. |

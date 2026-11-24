@@ -82,7 +82,7 @@ Projekt bude realizovaný individuálne.
 
 ### 3️⃣ Motivácia tímu
 
-Mnoho ľudí pestuje doma izbové rastliny, ale nie vždy si spomenie na ich pravidelné zalievanie. Nedostatočná alebo nadmerná zálievka môže negatívne ovplyvniť ich stav.
+Často zabúdam polievať izbové rastliny, najmä keď rodičia na dlhší čas odídu a starostlivosť zostane na mne. Polievanie samotné mi nerobí problém; potrebujem si naň spomenúť v správnom čase. Chcem vytvoriť zariadenie, ktoré využijem aj po skončení projektu.
 
 Motiváciou projektu je vytvoriť jednoduché zariadenie, ktoré používateľa samo upozorní, keď vlhkosť pôdy klesne pod nastavenú hranicu.
 
@@ -101,7 +101,9 @@ Zariadenie by malo:
 - Umožniť nastavenie hranice v zdrojovom kóde pri kalibrácii.
 - Fungovať bez mobilnej aplikácie a internetového pripojenia.
 - Byť použiteľné v existujúcich kvetináčoch.
-- Mať vlastný 3D tlačený kryt a vymeniteľný senzor.
+- Mať vlastný 3D tlačený kryt.
+
+Jednoduchá výmena senzora je voliteľný návrh AI na zvýšenie opraviteľnosti; o realizácii sa rozhodne pri návrhu krytu a montáži.
 
 **Kritériá úspechu:** Prototyp dokáže rozlíšiť suchšiu a vlhkejšiu pôdu, správne aktivovať upozornenie a fungovať ako samostatné zariadenie.
 
@@ -158,9 +160,9 @@ Elektronické komponenty boli objednané 24. 11. 2026 z Techfun.sk; čaká sa na
 - Použitie v existujúcom kvetináči.
 - Jednoduché ovládanie bez mobilnej aplikácie.
 - Možnosť prispôsobiť hranicu signalizácie v zdrojovom kóde pri kalibrácii.
-- Možnosť výmeny senzora bez výmeny celého zariadenia.
+- Prenosnosť medzi kvetináčmi; po presune môže byť potrebná opätovná kalibrácia.
 
-Na trhu existujú manuálne aj inteligentné vlhkomery. Projekt preto nie je založený na úplne novej technológii, ale na kombinácii jednoduchej automatickej signalizácie, univerzálneho použitia, prispôsobiteľnosti a opraviteľnosti.
+Na trhu existujú manuálne aj inteligentné vlhkomery vrátane indikátorov s LED. O existencii vlhkomerov som vedel, ale podrobnejšie som ich skúmal až po výbere témy. Projekt nesľubuje unikátnosť ani lepšie vlastnosti než ostatné produkty; [porovnanie riešení](../../projects/sdlc/02-Analysis/index.md) uvádza overené zdroje a obmedzenia.
 
 ### 8️⃣ Očakávané výstupy
 
@@ -212,7 +214,7 @@ Od projektu očakávam získanie praktických skúseností s návrhom jednoduch�
 
 Komponenty sú objednané a čaká sa na ich doručenie. Najbližšími krokmi sú overenie kompatibility, návrh zapojenia a vytvorenie prvého funkčného prototypu.
 
-V budúcnosti by bolo možné zariadenie rozšíriť o Bluetooth a nastavenie hranice pomocou telefónu, prípadne o históriu meraní alebo podporu rôznych profilov rastlín. Tieto funkcie však nie sú súčasťou základného rozsahu projektu.
+Upozornenie LED nemusím vidieť z inej miestnosti, preto zvažujem aj mobilnú aplikáciu s upozornením a prípadným nastavením hranice. Dosah komunikácie, realizovateľnosť a upozornenia na pozadí zatiaľ nie sú overené. Aplikácia ani ďalšie rozšírenia nie sú súčasťou základného rozsahu projektu. Podrobnejšia [motivácia](../../projects/7ds/02.D2-Motivation/index.md) a [rozhodnutia](../../projects/7ds/01.D1-Management/04.Decisions/index.md) zachytávajú pôvod návrhov.
 
 ---
 
