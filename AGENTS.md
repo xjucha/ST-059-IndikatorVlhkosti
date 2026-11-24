@@ -6,7 +6,9 @@
 - MVP: kapacitný senzor V1.2, FireBeetle 2 ESP32-E DFR0654-F, LED a rezistor, nabíjateľná batéria a vlastný 3D tlačený kryt; cieľom je prenosnosť a jednoduchá výmena senzora. Hranica sa predbežne nastavuje v kóde pri kalibrácii. BLE a nastavenie používateľom cez telefón sú voliteľné rozšírenia.
 - Vybraná batéria je Li-Pol 103450, označenie 3,7 V, 2000 mAh, ochranný obvod a PH2.0; pred pripojením overiť polaritu, nabíjací prúd a kompatibilitu. Overiť aj napätia senzora a ADC. Konkrétne komponenty a ich parametre treba potvrdiť podľa doručených kusov.
 - Predbežne meranie raz za 15 minút a bliknutie raz za 10 sekúnd na nezávislých časovačoch. Najprv overiť základnú funkciu, potom optimalizovať spotrebu. Rovnosť s hranicou sa predbežne považuje za suchý stav; smer porovnania určí kalibrácia.
-- K 24. 11. 2026 elektronika čaká na doručenie, zapojenie, firmware, merania, testy a finálny CAD model ešte neboli realizované. AI vizuálny koncept nie je technický výkres. Stav pri ďalšej práci vždy over v súboroch a u používateľa.
+- K 24. 11. 2026 sú elektronické komponenty objednané z Techfun.sk a čaká sa na doručenie. Objednávka je 30,90 € za tovar a 2,99 € za dopravu Packetou, spolu 33,89 € vrátane DPH 6,34 €. Dva senzory V1.2: jeden pre prototyp, druhý ako rezerva alebo na porovnávacie merania.
+- Kompatibilita batérie, polarita konektora, nabíjací prúd a funkčnosť elektroniky ešte neboli fyzicky overené. Zapojenie, firmware, merania, testy a finálny CAD model ešte neboli realizované. AI vizuálny koncept nie je technický výkres. Stav pri ďalšej práci vždy over v súboroch a u používateľa.
+- Cena objednávky nie je výrobnou cenou jedného zariadenia: známa časť pre dosku, batériu a jeden senzor je 21,60 €; podiel materiálu zo sád, 3D tlač a prípadný dodatočný montážny materiál zatiaľ nie sú vyčíslené.
 
 ## Repozitár a školská štruktúra
 - Koreňové README školskej šablóny určuje sedem študentských výstupov v `content/docs/sk/sthdf/ST-059-IndikatorVlhkosti/students/`: About Me, Knowledge Contribution, Project Summary, Project Outcomes, Pitch Presentation, Final Presentation a Reflexia. Rozcestník je `students/index.md`.
@@ -26,7 +28,7 @@
 
 ## Ďalší postup
 1. Overiť s vyučujúcim pravidlá hodnotenia, termíny, odovzdanie a rozsah metodík; získať schválenie Summary.
-2. Požiadavky, porovnanie konkurencie, návrh, predbežný rozpočet a plán testov sú pripravené; po dodaní dielov doplniť skutočné ceny a údaje priebežne aktualizovať.
+2. Požiadavky, porovnanie konkurencie, návrh, rozpočet objednávky a plán testov sú pripravené; náklady na tlač a montáž doplniť po ich zistení.
 3. Po doručení overiť kompatibilitu, zostaviť breadboard, implementovať firmware po schválení, kalibrovať a zdokumentovať skúšky.
 4. Zmerať súčiastky, navrhnúť a vytlačiť kryt, zostaviť a overiť prototyp vrátane spotreby.
 5. Doplniť skutočné výsledky, návod, KNIFE, prezentácie a reflexiu. Zdieľanie, commit a push iba po súhlase.

@@ -119,7 +119,7 @@ Predpokladané technológie:
 - Li-Pol 103450, označenie 3,7 V a 2000 mAh, s konektorom PH2.0 – vybrané batériové napájanie.
 - FreeCAD a 3D tlač – plánovaný návrh a výroba krytu.
 
-Parametre konkrétnych kusov, polaritu batérie, nabíjací prúd, napätie senzora a kompatibilitu vstupu treba pred zapojením overiť. Elektronika zatiaľ nebola zostavená ani otestovaná. Predbežné intervaly merania 15 minút a blikania 10 sekúnd sa overia pri vývoji.
+Elektronické komponenty boli objednané 24. 11. 2026 z Techfun.sk; čaká sa na doručenie. Objednané sú dva senzory: jeden pre prototyp, druhý ako rezerva alebo na porovnávacie merania. Kompatibilita batérie, polarita konektora, nabíjací prúd a funkčnosť elektroniky neboli fyzicky overené. Parametre konkrétnych kusov, napätie senzora a kompatibilitu vstupu treba pred zapojením overiť. Predbežné intervaly merania 15 minút a blikania 10 sekúnd sa overia pri vývoji.
 
 ### 6️⃣ Projektový plán
 
@@ -129,7 +129,7 @@ Parametre konkrétnych kusov, polaritu batérie, nabíjací prúd, napätie senz
 
 **Hlavné míľniky:**
 
-- [ ] Príprava – potreby a komponenty sú predbežne spracované; konkurenciu a kompatibilitu treba ďalej overiť.
+- [ ] Príprava – komponenty sú objednané; čaká sa na doručenie a overenie kompatibility.
 - [ ] Návrh – vznikol koncepčný návrh; detailné zapojenie a CAD model krytu ešte nie sú hotové.
 - [ ] Implementácia – čaká sa na komponenty; programovanie a výroba prototypu sa nezačali.
 - [ ] Testovanie – scenáre sú pripravené; merania a overenie signalizácie ešte neprebehli.
@@ -210,7 +210,7 @@ Projekt bude využívať poznatky z oblasti mikrokontrolérov, senzorov, paramet
 
 Od projektu očakávam získanie praktických skúseností s návrhom jednoduchého elektronického zariadenia, programovaním mikrokontroléra, 3D modelovaním a dokumentovaním výrobného procesu.
 
-Komponenty sú predbežne vybrané a čaká sa na ich doručenie. Najbližšími krokmi sú overenie kompatibility, návrh zapojenia a vytvorenie prvého funkčného prototypu.
+Komponenty sú objednané a čaká sa na ich doručenie. Najbližšími krokmi sú overenie kompatibility, návrh zapojenia a vytvorenie prvého funkčného prototypu.
 
 V budúcnosti by bolo možné zariadenie rozšíriť o Bluetooth a nastavenie hranice pomocou telefónu, prípadne o históriu meraní alebo podporu rôznych profilov rastlín. Tieto funkcie však nie sú súčasťou základného rozsahu projektu.
 

@@ -136,7 +136,7 @@ fm_reserved2: ""
 
 # Štúdia uskutočniteľnosti
 
-**Stav:** predbežný odhad, bez výsledkov merania a bez finálneho rozpočtu.
+**Stav:** komponenty objednané 24. 11. 2026, čaká sa na doručenie; výsledky merania a celkové náklady na dokončenie zatiaľ nie sú známe.
 
 ## Technická
 
@@ -144,34 +144,29 @@ ESP32, kapacitný senzor, LED a 3D tlačený kryt predstavujú realizovateľný 
 
 ## Ekonomická
 
-Komponenty sú vybrané, ale celkové náklady vrátane dopravy, spojovacieho materiálu a tlače ešte nie sú doložené. Po získaní cien zostaviť rozpočet; cenovú výhodnosť oproti hotovým produktom zatiaľ nemožno tvrdiť.
+Hodnota objednávky vrátane dopravy je 33,89 €. Náklady na 3D tlač a prípadný dodatočný montážny materiál zatiaľ nie sú známe, preto nejde o konečné náklady projektu ani výrobnú cenu zariadenia. Cenovú výhodnosť oproti hotovým produktom zatiaľ nemožno tvrdiť.
 
-## Predbežný rozpočet
+## Rozpočet objednávky
 
-Ceny doplní študent podľa objednávky. Pomlčka znamená neznámu hodnotu; celky zatiaľ nemožno vypočítať. Vývojové pomôcky sa do ceny finálneho kusu nezapočítavajú.
+Dodávateľ: Techfun.sk. Dátum objednávky: 24. 11. 2026. Stav: objednané, čaká sa na doručenie. Ceny sú podľa údajov o objednávke.
 
-| Finálny prototyp | Množstvo | Jednotková cena | Celkom |
+| Objednaná položka | Množstvo | Jednotková cena | Celkom |
 |---|---:|---:|---:|
-| FireBeetle 2 ESP32-E DFR0654-F | 1 ks | — | — |
-| Kapacitný senzor V1.2 | 1 ks | — | — |
-| Li-Pol 103450 | 1 ks | — | — |
-| Červená LED | 1 ks | — | — |
-| Rezistor 220 Ω | 1 ks | — | — |
-| Konektor a vodiče na finálnu montáž | podľa návrhu | — | — |
-| Materiál na 3D tlač krytu | podľa spotreby | — | — |
-| **Spolu finálny prototyp** | | | **nedoplnené** |
+| FireBeetle 2 ESP32-E DFR0654-F s pinmi | 1 ks | 15,30 € | 15,30 € |
+| Li-Pol 103450, 2000 mAh, s ochranným obvodom | 1 ks | 4,80 € | 4,80 € |
+| Kapacitný senzor V1.2 | 2 ks | 1,50 € | 3,00 € |
+| Rezistor/LED kit | 1 ks | 4,90 € | 4,90 € |
+| Dupont F-F, 40 ks, 10 cm | 1 balenie | 1,45 € | 1,45 € |
+| Dupont M-F, 40 ks, 10 cm | 1 balenie | 1,45 € | 1,45 € |
+| **Medzisúčet tovaru** | | | **30,90 €** |
+| Doprava cez Packetu | 1 | 2,99 € | 2,99 € |
+| **Objednávka spolu vrátane DPH** | | | **33,89 €** |
 
-| Vývoj a testovanie | Množstvo | Jednotková cena | Celkom |
-|---|---:|---:|---:|
-| Breadboard 400 bodov | 1 ks | — | — |
-| Sada Dupont vodičov | 1 sada | — | — |
-| Sada rezistorov a tlačidiel | 1 sada | — | — |
-| USB-C dátový kábel | 1 ks | — | — |
-| Skúšobná tlač a materiál | podľa spotreby | — | — |
-| Doprava | podľa objednávky | — | — |
-| **Spolu vývoj a testovanie** | | | **nedoplnené** |
+Zahrnutá DPH je 6,34 €; k celkovej cene sa už nepripočítava. Jeden senzor je určený pre prototyp a druhý ako rezerva alebo na porovnávacie merania.
 
-Sady môžu obsahovať diely použité aj vo finálnom prototype; pri dopĺňaní cien zabrániť dvojitému započítaniu. Presné počty a cenu tlače treba určiť podľa realizácie.
+## Predpokladaná cena jedného zariadenia
+
+Doska, batéria a jeden senzor tvoria známu časť **21,60 €** (15,30 + 4,80 + 1,50 €). Nie je to úplná výrobná cena: podiel LED, rezistora a vodičov zo zakúpených sád, 3D tlač a prípadný ďalší montážny materiál ešte nie sú vyčíslené. Rezervný senzor, nevyužitý obsah sád a vývojové pomôcky nie sú automaticky nákladom jedného hotového kusu. Doprava je súčasťou objednávky; jej prípadné priradenie na kus nie je určené. Breadboard a USB-C dátový kábel sú plánované vývojové pomôcky, v tejto objednávke nie sú uvedené.
 
 ## Organizačná
 

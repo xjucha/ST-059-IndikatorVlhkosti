@@ -136,15 +136,16 @@ fm_reserved2: ""
 
 # Použité a plánované technológie
 
-**Stav:** výber pre projekt; implementácia a fyzické overenie zatiaľ neprebehli.
+**Stav k 24. 11. 2026:** uvedené komponenty sú objednané z Techfun.sk a čaká sa na doručenie; implementácia a fyzické overenie zatiaľ neprebehli.
 
 | Technológia alebo diel | Plánované použitie |
 |---|---|
-| DFRobot FireBeetle 2 ESP32-E DFR0654-F | Riadenie, odčítanie senzora a LED; doska má USB-C a nabíjací obvod. [Dokumentácia výrobcu](https://wiki.dfrobot.com/dfr0654/). |
-| Kapacitný senzor vlhkosti pôdy V1.2 | Relatívny údaj na porovnanie s kalibrovanou hranicou; vlastnosti konkrétneho kusu treba overiť. |
-| Li-Pol 103450, označenie 3,7 V / 2000 mAh, PH2.0 | Vybrané batériové napájanie podľa zadania; polaritu, nabíjací prúd a kompatibilitu treba overiť pred pripojením. |
-| Červená LED a rezistor 220 Ω | Plánovaná signalizácia; vhodnosť konkrétneho zapojenia overiť. |
-| Breadboard, vodiče, USB-C dátový kábel | Vývoj a skúšky; breadboard nie je plánovanou súčasťou finálnej montáže. |
+| DFRobot FireBeetle 2 ESP32-E DFR0654-F s pinmi | Objednaný 1 ks na riadenie a odčítanie senzora; doska má USB-C a nabíjací obvod. [Dokumentácia výrobcu](https://wiki.dfrobot.com/dfr0654/). |
+| Kapacitný senzor vlhkosti pôdy V1.2 | Objednané 2 ks: jeden pre prototyp, druhý ako rezerva alebo na porovnávacie merania; vlastnosti treba overiť. |
+| Li-Pol 103450, označenie 3,7 V / 2000 mAh, PH2.0 | Objednaný 1 ks s ochranným obvodom; polaritu, nabíjací prúd a kompatibilitu treba fyzicky overiť pred pripojením. |
+| Rezistor/LED kit | Objednaná 1 sada; červená LED a rezistor 220 Ω sú plánované na signalizáciu, obsah a zapojenie treba overiť. |
+| Dupont vodiče | Objednané 1 balenie F-F a 1 balenie M-F, každé 40 ks s dĺžkou 10 cm; na vývoj a skúšky. |
+| Breadboard a USB-C dátový kábel | Plánované vývojové pomôcky; v uvedenej objednávke nie sú. Breadboard nie je plánovanou súčasťou finálnej montáže. |
 | Arduino IDE, C/C++ | Plánované vývojové prostredie a jazyk firmware. |
 | FreeCAD, 3D tlač | Návrh a výroba krytu podľa skutočných rozmerov. |
 | Git, GitHub, Markdown | Verzovanie a projektová dokumentácia. |
