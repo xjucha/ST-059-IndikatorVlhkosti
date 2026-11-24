@@ -10,6 +10,18 @@
 - Kompatibilita batérie, polarita konektora, nabíjací prúd a funkčnosť elektroniky ešte neboli fyzicky overené. Zapojenie, firmware, merania, testy a finálny CAD model ešte neboli realizované. AI vizuálny koncept nie je technický výkres. Stav pri ďalšej práci vždy over v súboroch a u používateľa.
 - Cena objednávky nie je výrobnou cenou jedného zariadenia: známa časť pre dosku, batériu a jeden senzor je 21,60 €; podiel materiálu zo sád, 3D tlač a prípadný dodatočný montážny materiál zatiaľ nie sú vyčíslené.
 
+## Hlavný princíp projektu
+
+Prioritou predmetu STHDF je preukázanie procesu riešenia problému, nielen prezentácia výsledného funkčného produktu. Uprednostňuj kvalitu zdokumentovaného procesu pred zbytočným rozširovaním funkcionality prototypu.
+
+Pri každej významnej aktivite primerane zaznamenaj:
+- Východiskový problém a cieľ.
+- Zvažované alternatívy a dôvody prijatých rozhodnutí.
+- Postup realizácie, vzniknuté problémy a spôsob ich riešenia.
+- Výsledky experimentov, získané znalosti a možnosti ďalšieho zlepšenia.
+
+Pracovné aktivity priebežne eviduj v príslušných častiach metodiky 7Ds. Zachovávaj relevantné fotografie, náčrty, merania a ďalšie dôkazy o postupe práce. Nevymýšľaj činnosti ani výsledky a jasne rozlišuj plánované, realizované a overené činnosti.
+
 ## Repozitár a školská štruktúra
 - Koreňové README školskej šablóny určuje sedem študentských výstupov v `content/docs/sk/sthdf/ST-059-IndikatorVlhkosti/students/`: About Me, Knowledge Contribution, Project Summary, Project Outcomes, Pitch Presentation, Final Presentation a Reflexia. Rozcestník je `students/index.md`.
 - Project Summary je predbežne vyplnený; väčšina ostatných študentských stránok zostáva šablónou. Dokumenty `projects/sdlc/` sa postupne pripravujú; `projects/7ds/` a `projects/q12/` obsahujú prevažne školské kostry a príklady.
