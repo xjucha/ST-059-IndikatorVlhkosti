@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "feasibility study"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Predbežné posúdenie uskutočniteľnosti a rozpočet prototypu."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [sdlc, uskutocnitelnost, rozpocet]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,53 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-059-IndikatorVlhkosti -->
 
-# 📈 Feasibility Study
 
-Technická, ekonomická a organizačná uskutočniteľnosť.
+# Štúdia uskutočniteľnosti
+
+**Stav:** predbežný odhad, bez výsledkov merania a bez finálneho rozpočtu.
+
+## Technická
+
+ESP32, kapacitný senzor, LED a 3D tlačený kryt predstavujú realizovateľný smer návrhu; funkčnosť konkrétnych kusov ešte nie je overená. Treba preveriť napájacie a výstupné napätie senzora, rozsah ADC, zapojenie LED, stabilitu údajov a možnosti úsporného režimu. Pred pripojením batérie overiť polaritu konektora, nabíjací prúd a kompatibilitu batérie s doskou. Výmena senzora a ochrana elektroniky pred vodou sa musia potvrdiť návrhom a skúškou.
+
+## Ekonomická
+
+Komponenty sú vybrané, ale celkové náklady vrátane dopravy, spojovacieho materiálu a tlače ešte nie sú doložené. Po získaní cien zostaviť rozpočet; cenovú výhodnosť oproti hotovým produktom zatiaľ nemožno tvrdiť.
+
+## Predbežný rozpočet
+
+Ceny doplní študent podľa objednávky. Pomlčka znamená neznámu hodnotu; celky zatiaľ nemožno vypočítať. Vývojové pomôcky sa do ceny finálneho kusu nezapočítavajú.
+
+| Finálny prototyp | Množstvo | Jednotková cena | Celkom |
+|---|---:|---:|---:|
+| FireBeetle 2 ESP32-E DFR0654-F | 1 ks | — | — |
+| Kapacitný senzor V1.2 | 1 ks | — | — |
+| Li-Pol 103450 | 1 ks | — | — |
+| Červená LED | 1 ks | — | — |
+| Rezistor 220 Ω | 1 ks | — | — |
+| Konektor a vodiče na finálnu montáž | podľa návrhu | — | — |
+| Materiál na 3D tlač krytu | podľa spotreby | — | — |
+| **Spolu finálny prototyp** | | | **nedoplnené** |
+
+| Vývoj a testovanie | Množstvo | Jednotková cena | Celkom |
+|---|---:|---:|---:|
+| Breadboard 400 bodov | 1 ks | — | — |
+| Sada Dupont vodičov | 1 sada | — | — |
+| Sada rezistorov a tlačidiel | 1 sada | — | — |
+| USB-C dátový kábel | 1 ks | — | — |
+| Skúšobná tlač a materiál | podľa spotreby | — | — |
+| Doprava | podľa objednávky | — | — |
+| **Spolu vývoj a testovanie** | | | **nedoplnené** |
+
+Sady môžu obsahovať diely použité aj vo finálnom prototype; pri dopĺňaní cien zabrániť dvojitému započítaniu. Presné počty a cenu tlače treba určiť podľa realizácie.
+
+## Organizačná
+
+Projekt realizuje jeden študent. Závisí od doručenia dielov, prístupu k 3D tlači a času na montáž, kalibráciu a testovanie. Predbežný rozsah zostáva bez mobilnej aplikácie.
+
+## Záver
+
+Pokračovať jednoduchým prototypom na breadboarde. O konečnej realizovateľnosti, výdrži a nákladoch rozhodnú až overenie komponentov a skúšky.
 
 ---
-**Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)
+**Navigácia:** [⬆️ Späť](./index.md) · [🏠 Prehľad](../index.md)

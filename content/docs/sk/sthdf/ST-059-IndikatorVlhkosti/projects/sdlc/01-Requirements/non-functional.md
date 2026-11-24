@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "non functional"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Nefunkčné požiadavky na prenosnosť, napájanie a opraviteľnosť prototypu."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [sdlc, poziadavky, opravitelnost]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,21 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-059-IndikatorVlhkosti -->
 
-# 🔧 Non-Functional Requirements (NFR)
 
-Výkonnosť, bezpečnosť, dostupnosť, škálovanie.
+# Nefunkčné požiadavky
+
+**Stav:** navrhované požiadavky; overenie prebehne po zostavení.
+
+| Oblasť | Požiadavka a spôsob overenia |
+|---|---|
+| Zrozumiteľnosť | Červená blikajúca LED predstavuje upozornenie; význam sa uvedie v návode a skontroluje pri ukážke. |
+| Prenosnosť | Zariadenie sa má dať premiestniť medzi bežnými kvetináčmi; vhodnosť rozmerov a potrebu opakovanej kalibrácie treba overiť. |
+| Napájanie | Prevádzka z nabíjateľnej batérie; výdrž a spotreba sú zatiaľ neznáme a budú merané. |
+| Opraviteľnosť | Navrhnúť jednoduchú výmenu senzora a prístup k elektronike; overiť pri montáži. |
+| Bezpečnosť | Pred pripojením overiť polaritu, kompatibilitu batérie a nabíjania, ako aj napätia a rozsah ADC; elektroniku chrániť pred kontaktom s pôdou a vodou. |
+| Opakovateľnosť | Zdokumentovať kalibráciu, zapojenie, zdrojový kód a výrobu krytu tak, aby bolo možné postup zopakovať. |
+
+Požadovaná výdrž, cena a rozmery zatiaľ nemajú schválené číselné limity.
 
 ---
-**Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)
+**Navigácia:** [⬆️ Späť](./index.md) · [🏠 Prehľad](../index.md)

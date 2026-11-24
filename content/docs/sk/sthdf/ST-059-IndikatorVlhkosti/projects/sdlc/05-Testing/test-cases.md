@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "test cases"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Plánované testovacie scenáre pre funkciu a zostavenie prototypu."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [sdlc, testovanie, prototyp]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,24 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-059-IndikatorVlhkosti -->
 
-# ✅ Test Cases
 
-Zoznam test scenárov (ID, názov, kroky, očakávaný výsledok).
+# Testovacie prípady
+
+**Stav: plánované; žiadny test sa zatiaľ neuskutočnil.** Postupy, hranice a podmienky sa spresnia po doručení dielov. Výsledky a dátumy patria do [test-results.md](./test-results.md), nie do tejto tabuľky.
+
+| ID | Postup | Očakávaný výsledok |
+|---|---|---|
+| T01 – Hodnoty senzora | Po bezpečnom overení zapojenia odčítať a zaznamenať opakované hodnoty v suchšej a vlhkejšej vzorke pôdy. | Hodnoty sa dajú rozlíšiť; zaznamenať aj smer zmeny a podmienky. |
+| T02 – Kalibrácia | Zo zaznamenaných hodnôt zvoliť hranicu, vložiť ju do kódu a nahrať program. | Hranica a postup sú zdokumentované; rozhodovanie zodpovedá zvoleným vzorkám. |
+| T03 – Suchá pôda | Pri ustálenom údaji na suchej strane hranice sledovať LED. | LED bliká; interval zaznamenať a porovnať s nastavením. |
+| T04 – Vlhkejšia pôda | Pri ustálenom údaji na vlhkej strane hranice sledovať LED. | Upozornenie sa neaktivuje, prípadne po ďalšom vyhodnotení skončí. |
+| T05 – Načasovanie | Zmerať odstupy odčítaní a bliknutí v oboch stavoch. | Intervaly zodpovedajú aktuálne nastaveným hodnotám; predbežne 15 min a 10 s. |
+| T06 – Batéria a nabíjanie | Po overení kompatibility a polarity odpojiť USB, vyskúšať prevádzku a následne nabíjanie podľa dokumentácie. | Zariadenie pracuje z batérie a nabíjanie sa správa podľa dokumentácie; zaznamenať podmienky. |
+| T07 – Kryt a senzor | Skontrolovať montáž, viditeľnosť LED, prístup k USB a výmenu senzora. | Komponenty držia, LED a USB sú prístupné a senzor sa dá vymeniť. |
+| T08 – Spotreba | Zmerať prúd pri meraní, signalizácii a medzi aktivitami; prípadne sledovať prevádzku na batériu. | Zaznamenané hodnoty umožnia odhad výdrže; výsledok zatiaľ nie je stanovený. |
+| T09 – Presun | Presunúť senzor do iného kvetináča, zaznamenať podmienky a prípadne znovu kalibrovať. | Zariadenie je mechanicky použiteľné a záznam ukáže, či je potrebná úprava hranice. |
+| T10 – Bez internetu a aplikácie | Vypnúť sieťové pripojenie a nepoužiť mobilnú aplikáciu; vykonať skúšku suchej a vlhkej pôdy. | Základné meranie a LED fungujú bez internetu a aplikácie. |
+| T11 – Presná hranica | Priviesť alebo simulovať údaj presne rovný nastavenej hranici a vyhodnotiť ho. | Rovnosť patrí do suchého stavu; LED sa riadi pravidlom T03. Smer porovnania sa určí kalibráciou. |
 
 ---
-**Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)
+**Navigácia:** [⬆️ Späť](./index.md) · [🏠 Prehľad](../index.md)

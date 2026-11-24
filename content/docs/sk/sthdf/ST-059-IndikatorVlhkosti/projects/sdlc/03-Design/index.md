@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "03 Design"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Predbežný návrh správania indikátora a časovania."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [sdlc, navrh, casovanie]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,38 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-059-IndikatorVlhkosti -->
 
-# # 03 Design
 
-Návrh architektúry, dátového modelu a používateľského rozhrania.
+# 03 – Návrh
+
+**Stav:** predbežný návrh; konkrétne zapojenie a rozmery sa určia po doručení dielov.
+
+Senzor poskytne analógový údaj doske ESP32. Program údaj pravidelne vyhodnotí oproti hranici nastavenej v kóde a pri suchom stave aktivuje červenú LED. Elektroniku a batériu má chrániť vlastný 3D tlačený kryt; meracia časť senzora bude v pôde.
+
+Navrhované intervaly 15 minút pre meranie a 10 sekúnd pre blikanie sú predbežné. Riadenie spánku musí umožniť oba časové intervaly; spôsob prebúdzania a spotrebu treba navrhnúť a otestovať. Senzor sa má dať vymeniť, konkrétny konektor a mechanika sú otvorené.
+
+## Predbežné správanie
+
+Meranie a signalizácia majú samostatné časovače. Schéma vyjadruje ich logickú súbežnosť; nepredpisuje konkrétnu implementáciu ani režim spánku.
+
+```mermaid
+flowchart TD
+    A[Zapnutie] --> B[Prvé meranie]
+    B --> C[Vyhodnoť a ulož spoločný stav]
+    C --> D[Jednorazovo inicializuj oba časovače]
+    D --> F[Časovač merania približne 15 min]
+    F -->|Po uplynutí| M[Zmeraj a aktualizuj spoločný stav]
+    M --> F
+    D --> G[Časovač LED približne 10 s]
+    G --> H{Spoločný stav je suchá pôda?}
+    H -->|Áno| I[Krátko zablikaj LED]
+    I --> G
+    H -->|Nie| J[Zhasni LED]
+    J --> G
+```
+
+Pri ďalšom meraní sa aktualizuje spoločný stav; časovač LED beží nezávisle od časovača merania. Hraničná hodnota sa považuje za suchú podľa kalibrovanej podmienky; smer porovnania závisí od nameraných hodnôt senzora. Najskôr sa overí základná funkčnosť, až potom sa bude riešiť optimalizácia spotreby.
+
+Blokové vzťahy: [architektúra](./architecture-diagram.md). Konkrétne piny, ochrana vstupov a spôsob napájania senzora zostávajú otvorené do overenia skutočných komponentov.
 
 ---
-**Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)
+**Navigácia:** [⬆️ Späť](../index.md)

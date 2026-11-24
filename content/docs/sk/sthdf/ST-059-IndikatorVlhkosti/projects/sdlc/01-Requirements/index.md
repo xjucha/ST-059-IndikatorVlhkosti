@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "01 Requirements"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Funkčné požiadavky na prototyp indikátora vlhkosti pôdy."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [sdlc, poziadavky, vlhkost-pody]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,24 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-059-IndikatorVlhkosti -->
 
-# # 01 Requirements
 
-Zachytenie potrieb, cieľov a očakávaní používateľov. Pridaj user stories a nefunkčné požiadavky.
+# 01 – Požiadavky
+
+**Stav:** návrh pred doručením a otestovaním komponentov.
+
+Cieľom je indikátor pre majiteľa izbovej rastliny, ktorý po vložení do existujúceho kvetináča upozorní na suchú pôdu bez pravidelného ručného čítania hodnoty.
+
+## Funkčné požiadavky MVP
+
+- F1: Zariadenie pravidelne odčíta relatívny údaj zo senzora a porovná ho s kalibrovanou hranicou.
+- F2: Pri hodnote zodpovedajúcej suchej pôde bliká červená LED; pri vlhkejšej pôde sa upozornenie neaktivuje.
+- F3: Hranica sa predbežne nastaví v zdrojovom kóde pri kalibrácii a následnom nahratí programu.
+- F4: Prototyp bude napájaný nabíjateľnou batériou a umiestnený vo vlastnom 3D tlačenom kryte; senzor má byť jednoducho vymeniteľný.
+- F5: Základná funkcia nebude vyžadovať internet ani mobilnú aplikáciu.
+
+Interval merania približne 15 minút a blikania približne 10 sekúnd sú pracovné návrhy, ktoré treba overiť. Nastavenie cez Bluetooth je voliteľné rozšírenie.
+
+Podrobnosti: [používateľské príbehy](./user-stories.md), [nefunkčné požiadavky](./non-functional.md), [plán testov](../05-Testing/test-cases.md).
 
 ---
-**Navigation:** [⬆️ Up](../index.md) · [🏠 Home](../index.md)
+**Navigácia:** [⬆️ Späť](../index.md)

@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "user stories"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Používateľské príbehy pestovateľa a autora prototypu."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [sdlc, pouzivatelske-pribehy, vlhkost-pody]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,18 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-059-IndikatorVlhkosti -->
 
-# 🧑‍🤝‍🧑 User Stories
 
-Zapíš stručné príbehy používateľov (As a … I want … so that …).
+# Používateľské príbehy
+
+**Stav:** plánované správanie prototypu.
+
+- Ako pestovateľ chcem dostať viditeľné upozornenie na suchú pôdu, aby som vedel, kedy skontrolovať potrebu polievania.
+- Ako používateľ chcem vložiť zariadenie do existujúceho kvetináča, aby som nemusel kupovať nový špeciálny kvetináč.
+- Ako používateľ chcem používať základnú signalizáciu bez aplikácie a internetu, aby bola obsluha jednoduchá.
+- Ako autor chcem pri kalibrácii nastaviť hranicu v zdrojovom kóde, aby signalizácia zodpovedala zvolenej pôde.
+- Ako používateľ chcem dobíjateľné napájanie a možnosť výmeny senzora, aby som mohol zariadenie opakovane používať.
+
+Nastavenie hranice používateľom cez Bluetooth je možné budúce rozšírenie, nie podmienka MVP. Kritériá overenia sú v [testovacích prípadoch](../05-Testing/test-cases.md).
 
 ---
-**Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)
+**Navigácia:** [⬆️ Späť](./index.md) · [🏠 Prehľad](../index.md)

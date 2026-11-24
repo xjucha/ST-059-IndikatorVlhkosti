@@ -32,8 +32,8 @@ locale: "sk"
 
 # Lifecycle
 created: "2026-10-27 17:40"
-modified: "2026-10-27 17:40"
-status: "in-progress"
+modified: "2026-11-24"
+status: "inprogress"
 privacy: "public"
 
 # Intellectual property
@@ -70,7 +70,7 @@ fm_reserved2: ""
 
 **Stručný popis:**
 
-Projekt sa zameriava na návrh a výrobu jednoduchého elektronického zariadenia, ktoré automaticky monitoruje vlhkosť pôdy v kvetináči. Pri poklese vlhkosti pod nastavenú hranicu upozorní používateľa pomocou blikajúcej LED diódy. Zariadenie bude možné použiť v bežných existujúcich kvetináčoch.
+Projekt sa zameriava na návrh a výrobu jednoduchého elektronického zariadenia, ktoré automaticky monitoruje vlhkosť pôdy v kvetináči. Pri poklese vlhkosti pod nastavenú hranicu upozorní používateľa pomocou blikajúcej LED diódy. Zariadenie je navrhnuté na použitie v rôznych existujúcich kvetináčoch; po presune alebo zmene pôdy môže byť potrebná opätovná kalibrácia.
 
 ### 2️⃣ Členovia tímu
 
@@ -98,7 +98,7 @@ Zariadenie by malo:
 
 - Automaticky merať vlhkosť pôdy.
 - Pri poklese pod nastavenú hranicu upozorniť používateľa blikajúcou LED diódou.
-- Umožniť nastavenie hranice vlhkosti.
+- Umožniť nastavenie hranice v zdrojovom kóde pri kalibrácii.
 - Fungovať bez mobilnej aplikácie a internetového pripojenia.
 - Byť použiteľné v existujúcich kvetináčoch.
 - Mať vlastný 3D tlačený kryt a vymeniteľný senzor.
@@ -113,13 +113,13 @@ Senzor bude umiestnený v pôde a elektronika v kryte nad jej povrchom. Mikrokon
 
 Predpokladané technológie:
 
-- Arduino alebo ESP32 – riadenie zariadenia.
-- Kapacitný senzor – meranie vlhkosti pôdy.
-- LED dióda – upozornenie používateľa.
-- CAD nástroj – parametrický návrh krytu.
-- 3D tlač – výroba krytu.
+- DFRobot FireBeetle 2 ESP32-E DFR0654-F – plánované riadenie zariadenia.
+- Kapacitný senzor vlhkosti pôdy V1.2 – relatívne meranie.
+- Červená LED a rezistor 220 Ω – plánovaná signalizácia.
+- Li-Pol 103450, označenie 3,7 V a 2000 mAh, s konektorom PH2.0 – vybrané batériové napájanie.
+- FreeCAD a 3D tlač – plánovaný návrh a výroba krytu.
 
-Konkrétne komponenty a spôsob napájania budú vybrané počas návrhu s ohľadom na cenu, spotrebu energie a jednoduchosť realizácie.
+Parametre konkrétnych kusov, polaritu batérie, nabíjací prúd, napätie senzora a kompatibilitu vstupu treba pred zapojením overiť. Elektronika zatiaľ nebola zostavená ani otestovaná. Predbežné intervaly merania 15 minút a blikania 10 sekúnd sa overia pri vývoji.
 
 ### 6️⃣ Projektový plán
 
@@ -129,11 +129,11 @@ Konkrétne komponenty a spôsob napájania budú vybrané počas návrhu s ohľa
 
 **Hlavné míľniky:**
 
-- [ ] Príprava – analýza potrieb zákazníka a výber komponentov.
-- [ ] Návrh – zapojenie elektroniky a CAD model krytu.
-- [ ] Implementácia – programovanie a výroba prototypu.
-- [ ] Testovanie – overenie merania a signalizácie.
-- [ ] Prezentácia – dokumentácia výsledkov a obhajoba.
+- [ ] Príprava – potreby a komponenty sú predbežne spracované; konkurenciu a kompatibilitu treba ďalej overiť.
+- [ ] Návrh – vznikol koncepčný návrh; detailné zapojenie a CAD model krytu ešte nie sú hotové.
+- [ ] Implementácia – čaká sa na komponenty; programovanie a výroba prototypu sa nezačali.
+- [ ] Testovanie – scenáre sú pripravené; merania a overenie signalizácie ešte neprebehli.
+- [ ] Prezentácia – Project Summary je predbežne vypracovaný; výsledky a obhajoba zatiaľ neexistujú.
 
 #### 📅 Míľniky a výstupy
 
@@ -157,7 +157,7 @@ Konkrétne komponenty a spôsob napájania budú vybrané počas návrhu s ohľa
 - Automatické upozornenie bez potreby manuálnej kontroly.
 - Použitie v existujúcom kvetináči.
 - Jednoduché ovládanie bez mobilnej aplikácie.
-- Možnosť prispôsobiť hranicu signalizácie.
+- Možnosť prispôsobiť hranicu signalizácie v zdrojovom kóde pri kalibrácii.
 - Možnosť výmeny senzora bez výmeny celého zariadenia.
 
 Na trhu existujú manuálne aj inteligentné vlhkomery. Projekt preto nie je založený na úplne novej technológii, ale na kombinácii jednoduchej automatickej signalizácie, univerzálneho použitia, prispôsobiteľnosti a opraviteľnosti.
@@ -210,9 +210,9 @@ Projekt bude využívať poznatky z oblasti mikrokontrolérov, senzorov, paramet
 
 Od projektu očakávam získanie praktických skúseností s návrhom jednoduchého elektronického zariadenia, programovaním mikrokontroléra, 3D modelovaním a dokumentovaním výrobného procesu.
 
-Najbližšími krokmi budú výber konkrétnych komponentov, návrh elektronického zapojenia a vytvorenie prvého funkčného prototypu.
+Komponenty sú predbežne vybrané a čaká sa na ich doručenie. Najbližšími krokmi sú overenie kompatibility, návrh zapojenia a vytvorenie prvého funkčného prototypu.
 
-V budúcnosti by bolo možné zariadenie rozšíriť o webové rozhranie, históriu meraní alebo podporu rôznych profilov rastlín. Tieto funkcie však nie sú súčasťou základného rozsahu projektu.
+V budúcnosti by bolo možné zariadenie rozšíriť o Bluetooth a nastavenie hranice pomocou telefónu, prípadne o históriu meraní alebo podporu rôznych profilov rastlín. Tieto funkcie však nie sú súčasťou základného rozsahu projektu.
 
 ---
 

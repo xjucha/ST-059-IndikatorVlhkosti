@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "architecture diagram"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Koncepčná architektúra senzora, riadenia, napájania a signalizácie."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Tomáš Jucha"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Tomáš Jucha"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [sdlc, architektura, elektronika]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-27 17:40"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-27 17:40"
+modified: "2026-11-24"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "inprogress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -133,9 +133,25 @@ fm_reserved2: ""
 
 <!-- SDLC_INSTANCE_ID: ST-059-IndikatorVlhkosti -->
 
-# 🏗️ Architecture Diagram
 
-Vlož odkaz/obrázok architektonického diagramu a krátky popis.
+
+# Architektúra zariadenia
+
+**Stav:** koncepčný návrh, nejde o elektrickú schému zapojenia.
+
+```mermaid
+flowchart LR
+    P[Pôda] -->|meraná vlhkosť| S[Kapacitný senzor]
+    S -->|analógový signál| E[ESP32 na FireBeetle]
+    E -->|riadiaci signál cez rezistor| L[Červená LED]
+    PC[Počítač] -->|USB-C dátové spojenie: programovanie| E
+    PC -->|USB-C napájanie| N[Integrovaný nabíjací obvod FireBeetle]
+    N <-->|nabíjanie a batériové napájanie| B[Li-Pol batéria]
+    N -->|napájanie dosky: koncepčný tok| E
+    E -->|napájanie senzora: spôsob overiť| S
+```
+
+USB-C umožňuje programovanie a externé napájanie; diagram je zjednodušený a nevyjadruje presnú vnútornú topológiu dosky. Program má porovnávať údaj s kalibrovanou hranicou v kóde. Pred realizáciou overiť napätia, rozsah ADC, polaritu batérie, nabíjanie a spôsob pripojenia senzora podľa [dokumentácie výrobcu](https://wiki.dfrobot.com/dfr0654/). Doska, batéria a LED majú byť v kryte nad pôdou.
 
 ---
-**Navigation:** [⬆️ Up](./index.md) · [🏠 Home](../index.md)
+**Navigácia:** [⬆️ Späť](./index.md) · [🏠 Prehľad](../index.md)
